@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(75, 94%, 57%);
+}
+
+.card {
+  background-color:  hsl(0, 0%, 12%);;
+  position: relative;
+  left: 61vh;
+  border: 0;
+  width: 480px;
+  height: 730px;
+  border-radius: 15px;
+}
+
+.foto > * {
+  position: absolute;
+  left: 13vh;
+  width: 270px;
+  height: 270px;
+  object-fit: fill;
+  border-radius: 50%;
+  object-fit: none;
+  top: 2rem;
+}
+
+.name {
+  color: #999999;
+  position: relative;
+  top: 19rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.urbe {
+  text-align: center;
+  position: relative;
+  top: 18rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(75, 94%, 57%)
+}
+
+.sud {
+  color: #999999;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  top: 18rem;
+}
+
+.redes > * {
+  background-color: hsl(0, 0%, 20%);;
+  font-size: 20px;
+  position: relative;
+  top: 14rem;
+  display: block;
+  text-decoration-line: none;
+  color:  #999999;
+  border: 0;
+  border-radius: 8px;
+  width: 25rem;
+  height: 3rem;
+  text-align: center;
+  padding-top: 0.6rem;
+  left: 5vh;
+}
+
+.redes :hover {
+  background-color: hsl(75, 94%, 57%)
+ /* hsl(0, 0%, 12%);*/
+}
+
+.attribution { 
+  color: hsl(0, 0%, 100%);
+  font-size: 18px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
+
+
+/*position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  */
